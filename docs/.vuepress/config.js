@@ -3,6 +3,7 @@ const jsSideBar = require('../javascript/jsSideBar')
 const vueSideBar = require('../vue/vueSideBar')
 const nodeSideBar = require('../nodejs/nodeSideBar')
 const wxSideBar = require('../wx/wxSideBar')
+const exSideBar = require('../exercise/exSideBar')
 module.exports = {
     title: 'Xu\'s blog',
     description: 'Document library',
@@ -17,12 +18,20 @@ module.exports = {
           { text: 'vue', link: '/vue/test1' },
           { text: 'node.js', link: '/nodejs/1. Node.js 介绍' },
           { text: '微信小程序', link: '/wx/test1' },
+          { text: '重难点', link: '/exercise/syntax/11. promise' },
           // 下拉列表的配置
           {
-            text: 'Languages',
+            text: '命令与工具',
             items: [
-              { text: 'Chinese', link: '/language/chinese' },
-              { text: 'English', link: '/language/English' }
+              { text: 'git类', link: '/tools/git/1. git 使用大全' },
+              { text: '服务器类', link: '/tools/server/1. test' },
+            ]
+          },
+          {
+            text: 'more',
+            items: [
+              { text: 'github', link: 'https://github.com/MrXuxu' },
+              { text: '码云', link: 'https://gitee.com/MrXuxu/' }
             ]
           }
         ],
@@ -56,6 +65,11 @@ module.exports = {
           //   }
           // ],
           '/wx/': wxSideBar, 
+          '/exercise/': exSideBar,
+          '/tools/': [
+            'git/1. git 使用大全',
+            'server/1. test'
+          ],
           // fallback
           '/': [
             ''        /* / */
