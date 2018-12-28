@@ -18,7 +18,7 @@ module.exports = {
           { text: 'vue', link: '/vue/' },
           { text: 'node.js', link: '/nodejs/' },
           { text: '微信小程序', link: '/wx/' },
-          { text: '重难点', link: '/exercise/' },
+          { text: 'interview', link: '/exercise/' },
           // 下拉列表的配置
           {
             text: '命令与工具',
