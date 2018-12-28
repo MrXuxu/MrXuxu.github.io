@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="div" onclick="console.log('这是行内事件')"></div>
     <script>
-        var a = 1;
-        test();
-        console.log(a);
-        function test() {
-            console.log(a);  //undefined
-            a = 2;
+        var div = document.getElementById('div')
+        div.onclick = function () {
+            console.log('这是div');
         }
-        // test();
     </script>
 </body>
 

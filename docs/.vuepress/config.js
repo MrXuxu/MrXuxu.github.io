@@ -14,11 +14,11 @@ module.exports = {
     themeConfig: {
         nav: [
           { text: '主页', link: '/' },
-          { text: 'javascript', link: '/javascript/test1' },
-          { text: 'vue', link: '/vue/test1' },
-          { text: 'node.js', link: '/nodejs/1. Node.js 介绍' },
-          { text: '微信小程序', link: '/wx/test1' },
-          { text: '重难点', link: '/exercise/syntax/4. promise' },
+          { text: 'javascript', link: '/javascript/' },
+          { text: 'vue', link: '/vue/' },
+          { text: 'node.js', link: '/nodejs/' },
+          { text: '微信小程序', link: '/wx/' },
+          { text: '重难点', link: '/exercise/' },
           // 下拉列表的配置
           {
             text: '命令与工具',
