@@ -1,5 +1,5 @@
-# 1. Node.js 介绍
-## 1. Node.js是什么
+## 1. Node.js 介绍
+### 1. Node.js是什么
 
 - 不是一门语言
 - 不是库，不是框架
@@ -8,13 +8,13 @@
 - 以前只有浏览器可以解析执行JavaScript代码
 - 也就是说现在JavaScript可以完全脱离浏览器来运行
 
-## 2. 浏览器中的JavaScript
+### 2. 浏览器中的JavaScript
 
 - EcmaScript
 - DOM
 - BOM
 
-## 3. Node.js中的JavaScript
+### 3. Node.js中的JavaScript
 
 - EcmaScript
 - 没有DOM和BOM
@@ -25,14 +25,14 @@
   - http服务器
   - 等处理。。。
 
-## 4. 构建在Chrome的V8引擎之上
+### 4. 构建在Chrome的V8引擎之上
 
 - 代码只是具有特定格式的字符串而已
 - 引擎可以认识它，引擎可以帮你去解析和执行
 - Google Chrome的V8引擎是目前公认的解析执行JavaScript代码最快的
 - Node.js的作者把Google Chrome中的V8引擎移植了出来，开发了一个独立的引擎
 
-## 5. 特点
+### 5. 特点
 
 - 事件驱动
 - 非阻塞IO模型（异步）
@@ -41,7 +41,7 @@
   - npm 是世界上最大的开源库生态系统
   - 绝大多数JavaScript相关的包都存放在npm上，这样做的目的是为了让开发人员更方便的去下载使用
 
-## 6. Node.js能做什么
+### 6. Node.js能做什么
 
 - Web服务器后台
 - 命令行工具
@@ -55,7 +55,7 @@
   - gulp
   - npm
 
-## 7. Node.js中能学到啥
+### 7. Node.js中能学到啥
 
 - B/S编程模型
   - Browser-Server

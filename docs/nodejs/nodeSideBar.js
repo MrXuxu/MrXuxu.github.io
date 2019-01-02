@@ -9,6 +9,7 @@ module.exports = [
       collapsable: true,
       children: [
         'demo/1. 仿制接口',
+        'demo/2. mongodb实现增删查改',
         'demo/project1',
         'demo/project2'
       ]

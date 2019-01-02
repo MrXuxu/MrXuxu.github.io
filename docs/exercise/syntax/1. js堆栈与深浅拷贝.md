@@ -1,5 +1,5 @@
 
-# 1. js堆栈与深浅拷贝
+## 1. js堆栈与深浅拷贝
 ### 1. 数据类型
 1. 基本类型：
 5种：Undefined、Null、Boolean、Number 和 String
