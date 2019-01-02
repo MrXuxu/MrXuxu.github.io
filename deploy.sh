@@ -1,6 +1,8 @@
 # 构建
-vuepress build docs
-
+npm run docs:build
+git add .
+git commit -m 'push'
+git push
 # 导航到构建输出目录
 cd docs/.vuepress/dist
 
