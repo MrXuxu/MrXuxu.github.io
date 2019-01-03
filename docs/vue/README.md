@@ -56,9 +56,9 @@ module.exports = {
 <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
 <script>
     window.onload = function () {
-    window.viewportUnitsBuggyfill.init({
-        hacks: window.viewportUnitsBuggyfillHacks
-    });
+      window.viewportUnitsBuggyfill.init({
+          hacks: window.viewportUnitsBuggyfillHacks
+      });
     }
 </script>
 ```
@@ -66,11 +66,12 @@ module.exports = {
 ### 3. 样式重置&解决1px边框&300ms延迟
 1. reset.css样式重置
 2. border.css解决移动端一像素边框
+
+[文件地址](https://gitee.com/MrXuxu/reset-border/tree/master)
 ```bash
 import './assets/style/reset.css'
 import './assets/style/border.css'
 ```
-[文件地址](https://gitee.com/chengbenchao/vue-resource)
 3. 解决300ms延迟问题
 - 安装
 ```bash
