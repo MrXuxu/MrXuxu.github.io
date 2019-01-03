@@ -1,6 +1,13 @@
 module.exports = [
-    // '',     /* /foo/ */
-    'test1',  /* /foo/one.html */
-    'test2',   /* /foo/two.html */
-    'test3'
+    // '',
+    // 'test3'
+    {
+        title: 'vue项目',
+        collapsable: true,
+        children: [
+            '',
+            'vue-project/test1',  /* /foo/one.html */
+            'vue-project/test2',   /* /foo/two.html */
+        ]
+    }
 ]
